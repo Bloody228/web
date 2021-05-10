@@ -1,10 +1,20 @@
 @import url(http://127.0.0.1:5500/index.html);
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body, html {
 
     background: linear-gradient(rgb(132, 181, 236), rgb(61, 100, 160), rgb(28, 45, 100)) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100vw 100vh;
+}
+
+.nav-container{
+  display: inline-block;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 #element2 {  
@@ -33,7 +43,7 @@ ul.nav{
   }
 
   ul.nav > li {
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0);
     border: 2px solid rgb(132, 181, 236);
     list-style: none;
     width: 130px;         
