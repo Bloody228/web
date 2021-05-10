@@ -1,0 +1,72 @@
+@import url(http://127.0.0.1:5500/index.html);
+
+
+body, html {
+
+    background: linear-gradient(rgb(132, 181, 236), rgb(61, 100, 160), rgb(28, 45, 100)) no-repeat;
+    background-size: 100% 100%;
+}
+
+#element2 {  
+  margin: 5px;
+  padding: 220px; 
+  border: 2px solid rgb(238, 238, 238); 
+  border-radius: 30px;
+  background-image: url(baikal3.png)
+}
+#element3 {
+  margin: 5px;
+  padding: 50px; 
+  border: 2px solid rgb(238, 238, 238); 
+  border-radius: 30px;
+  background-color:rgb(255, 255, 255);
+}
+
+ul.nav{
+    background: #ffffff;
+  }
+ 
+  ul{
+    margin: 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+  }
+
+  ul.nav > li {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(132, 181, 236);
+    list-style: none;
+    width: 130px;         
+    border-radius: 30px;
+    
+  }
+  ul.nav li > a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+  }
+
+  ul.nav li > ul {
+    display: none;
+    border-radius: 30px;
+  }
+  
+  ul.nav li:hover {
+    position: relative;
+    background: rgb(132, 181, 236);
+    border-radius: 30px;
+  }
+  
+ul.nav li:hover > ul {
+  background-color: #ffffff;
+  display: block;
+  border-radius: 30px;
+}
+
+ul.nav li:hover ul{
+  position: absolute;
+  top: 8;
+  left: 50px;
+  border-radius: 30px;
+}
